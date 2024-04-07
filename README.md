@@ -1,6 +1,6 @@
 # 2024年NBJL实验室推免招生考核：计算任务调度问题
 ## 需要实现的接口示例
-选手需要基于抽象类Scheduler实现调度器类FinalScheduler，该类包含两个方法 init 和 schedule。如下所示：
+需要基于抽象类Scheduler实现调度器类FinalScheduler，该类包含两个方法 init 和 schedule。如下所示：
 ```python3
 class FinalScheduler(Scheduler):
     def __init__(self):
