@@ -35,7 +35,7 @@ sla["BE"]: Dict[int, int] = {1:0, 6:0, 12:0}
 sla["EM"]: Dict[int, int] = {1:0, 6:0, 12:0}
 
 class Runner:
-    def __init__(self, filename, debug=False) -> None:  
+    def __init__(self, filename, debug=True) -> None:  
         """init runner object
 
         Args:
